@@ -1,4 +1,4 @@
-FROM mysql:5.6
+FROM mariadb:focal
 
 ARG BUILD_DATE
 ARG VCS_REF
