@@ -7,10 +7,6 @@ on:
     branches: master
     tags:
       - v*
-    paths:
-      - 'Dockerfile'
-      - 'root/**'
-      - '!README.md'
 
 jobs:
   build:
@@ -71,4 +67,4 @@ jobs:
         name: notify
         uses: wei/curl@v1
         with:
-          args: -X POST https://hooks.microbadger.com/images/dragoncrafted87/greyhole-database/pyMHnj4VpGlfIKAvUk6f0xTT1Mo=
+          args: -X POST https://hooks.microbadger.com/images/dragoncrafted87/greyhole-database/p7TH8AkFMw_ADA0aMcsvzuFGKZw=
